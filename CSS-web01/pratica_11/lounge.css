@@ -1,0 +1,104 @@
+body {
+  font-size: small;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  line-height: 1.6em;
+}
+/*configuraçoes para a div*/
+#elixis {
+  
+  border-width: 4px;
+  border-color: #1f7c83;
+  border-style: solid;
+  width: 200px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  /*Preenche o back com magem*/
+  background-image: url(images/cocktail.gif);
+  /*Preenche so em um eixo o gif*/
+  background-repeat: repeat-x;
+  /*alinhar a dive ao centro
+  */
+  text-align: center;
+  /*deixando a div flutuante*/
+  float: right;
+  /*
+  configurei a margem*/
+  margin-left: 20px;
+  
+   
+}
+/*Criei uma clase para os h3 para mudar a cor dos textos
+*/
+.nome-bebida{
+  color: #cc2541;
+}
+
+h1,
+h2 {
+  color: #007e7e;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+#guarantee {
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  background-color: #a7cece;
+  padding: 5px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 310px;
+  
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+#footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.cd {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+/* formatação dos links e pseudo-classes será explicado mais adiante */
+
+a:link {
+  color: #007e7e;
+}
+
+a:visited {
+  color: #333333;
+}
+
+#elixirs a:link {
+  color: #007e7e;
+}
+
+#elixirs a:visited {
+  color: #333333;
+}
+
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}

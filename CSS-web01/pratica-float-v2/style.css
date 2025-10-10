@@ -1,0 +1,41 @@
+#cabecalho{
+    /*largura*/
+    width: 100%;
+    /*altura*/
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 5px; /*para dar um espacamento entre o cabecalho e o menu*/
+}
+
+#menu{
+    width: 20%;
+    height: 400px;
+    background-color: lightcoral;  
+    float: left;
+}
+
+#centro{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(223, 255, 155);
+    /*coloquei uma margem que calcula automaticamente a largura e nao entra "em baixo" de outra div float 
+    e centraliza tambem*/ 
+    float: left;
+    margin: 0% auto;     
+}
+
+#lateral{
+    width: 20%;
+    height: 400px;
+    background-color: lightgreen;
+    float: right;
+}
+
+#rodape{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(122, 88, 217);
+    /*vai usar toda vez que tiver float em tudo, se nao o rodape fica por baixo dos outros*/
+    clear: both; /*para limpar os floats e nao deixar o rodape "em baixo" de outra div float*/
+    
+}

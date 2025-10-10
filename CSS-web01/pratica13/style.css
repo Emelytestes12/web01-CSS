@@ -1,0 +1,41 @@
+#cabecalho {
+    background-color: lightblue;
+    height: 100px;
+    
+}
+#janela{
+    width: 20%;
+    height: 400px;
+    background-color: lightcoral;  
+    float: left;
+}
+#quadro1{
+    width: 40%;
+    height: 200px;
+    background-color: lightgreen;
+    float: left;   
+}
+#quadro2{
+    width: 40%;
+    height: 200px;
+    background-color: lightyellow;
+    float: left;   
+}
+#quadro3{
+    width: 40%;
+    height: 200px;
+    background-color: lightgray;
+    float: left;   
+}
+#quadro4{
+    width: 40%;
+    height: 200px;
+    background-color: lightpink;
+    float: left;   
+}
+footer {
+    background-color: lightblue;
+    height: 50px;
+    clear: both;
+    margin-top: 10px;
+}
