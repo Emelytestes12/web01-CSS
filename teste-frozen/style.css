@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+p,
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#center{
+    margin-top: 10px;
+    background-color: rgb(181, 172, 244);
+
+    /*Css frozen*/
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

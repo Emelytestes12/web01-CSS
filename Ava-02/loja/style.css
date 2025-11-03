@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* inclui padding e border no tamanho dos elementos */
+}
+
+#central {
+    /*frozen*/
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-sizing: border-box; /* garante que padding e border não aumentem o tamanho */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+.menu-lateral {
+  position: relative;
+  background-color: #b50000; /* vermelho escuro */
+  width: 137px; /* largura fixa */
+  height: 63.06%; /* altura*/
+  display: flex; /* usa flexbox para layout */
+  flex-direction: column; /* organiza os links em coluna */
+  align-items: stretch; /* faz os links ocuparem toda a largura */
+  padding: 0; /* remove espaçamento interno */
+}
+
+.menu-lateral a {
+  color: white; /* cor do texto */
+  text-decoration: none;   /* remove sublinhado */
+  text-align: center; /* centraliza o texto */
+  padding: 10px 0; /* espaçamento interno */
+  border-bottom: 1px solid #fefefe; /* separador sutil */
+  
+}
+
+.menu-lateral a:hover {
+  background-color: #4f0a0a; /* muda de cor ao passar o mouse */
+}
+
+#logo {
+  float: right; 
+  margin-top: 10px;
+  margin-top: calc(-260px + 8px);
+  width: 662px;
+  height: 251px;
+}
+
+#blue1{
+  width: 400px; 
+  height: 100px;
+  background-color:#cad6dc;
+  padding: 10px;
+  float: left;
+}
+#blue1 h3{
+  color:#6994ae ;
+}
+
+
+#blue2{
+  width: 400px; 
+  height: 100px;
+  background-color: #477995;
+  padding: 10px;
+  float: left;
+  color: #ffffff;
+  
+}
+
+.destaque{
+  color: #f1f41e; 
+}
+
+#red2{
+  width: 400px;
+  height: 100px; 
+  background-color:#e9b0b0 ;
+  padding: 10px;
+  float: right;
+}
+
+
+#red{
+  width: 400px; 
+  height: 100px;
+  background-color:#be0000;
+  padding: 30px;
+  float: right;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+} h3{
+  color: #c6252a;
+}

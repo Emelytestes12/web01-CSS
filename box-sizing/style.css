@@ -1,0 +1,50 @@
+/* global reset rule */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-page {
+    background-color: red;
+
+    /* CSS layout frozen */
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+header {
+    background-color: darksalmon;
+    height: 100px;
+}
+
+#left-bar {
+    background-color: lightblue;
+    float: left;
+
+    width: 500px;
+    height: 400px;
+}
+
+#side-bar {
+    background-color: lime;
+    float: right;
+
+    /* pode-se ajustar manualmente -- e diminuir o width -- para incluir o padding na largura total (width)    */
+    width: 300px;
+    height: 400px;
+
+    /* Gostaria de ter um padding no sidebar */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 8px solid black;
+
+}
+
+footer {
+    background-color: orange;
+    /*  para não ficar abaixo de ambos floats left e right divs  */
+    clear: both; /*LEFT OR RIGHT*/
+
+    height: 100px;
+}

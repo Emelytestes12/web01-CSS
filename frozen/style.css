@@ -1,0 +1,20 @@
+header {
+    background-color: lightcoral;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#central {
+    margin-top: 10px;
+    background-color: lightgreen;
+
+    /*Css frozen*/
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* inclui padding e border no tamanho dos elementos */
+}
+body {
+    background-color: #ffeaea; /* cor de fundo branca */
+}
+
+#central {
+    /*frozen*/
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; /* espaço do topo */
+    box-sizing: border-box; /* garante que padding e border não aumentem o tamanho */    
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+.menu-lateral {
+  background-color: #fcbc79; 
+  width: 180px; /* largura fixa */
+  height: 333.20px; /* altura*/
+  display: flex; /* usa flexbox para layout */
+  flex-direction: column; /* organiza os links em coluna */
+  align-items: stretch; /* faz os links ocuparem toda a largura */ 
+}
+
+.menu-lateral a {
+  color: rgb(255, 255, 255); /* cor do texto */
+  text-decoration: none;   /* remove sublinhado */
+  text-align: center; /* centraliza o texto */
+  padding: 15px 0; /* espaçamento interno */
+  border: 2px solid #f2970f;
+  border: 2px solid #f2970f;
+  border-bottom: 1px solid #f2970f; /* deixa a parte de baixo diferente */
+}
+
+.menu-lateral a:hover {
+  background-color: #ffcd8a; /* muda de cor ao passar o mouse */
+}
+
+#noticias{
+    margin-left: 182px;
+    margin-top: -333px;
+    width: 310px;
+    height: 166.80px;
+    padding: 10px;
+    border-right: #4e79e3 2px dotted;
+    background-color: white;    
+}
+
+#contratar{
+    margin-left: 182px;
+    width: 310px;
+    height: 166.80px;
+    padding: 20px;
+    border-top: #4e79e3 2px dotted;
+    background-color: white;  
+}
+
+#carnaval{
+    margin-left: 182px;
+    margin-top: -333px;
+    width: 308px;
+    height: 166.80px;
+    padding: 10px;
+    float: right;
+    background-color: white;   
+}
+
+#aproveite{    
+    margin-top: -166.80px;
+    width: 310px;
+    height: 166.80px;
+    padding: 10px;
+    float: right;
+    border-top: #4e79e3 2px dotted;
+    border-left: #4e79e3 2px dotted;
+    background-color: white;
+}
+
+footer {
+  background-color: #f57c2c; /* cor de fundo escura */
+  color: rgb(251, 212, 184); /* cor do texto clara */
+  text-align: center; /* centraliza o texto */
+  padding: 10px 0; /* espaçamento interno */ 
+}
